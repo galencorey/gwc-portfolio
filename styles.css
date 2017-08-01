@@ -1,5 +1,10 @@
-.img {
-  width: 30%;
+.frame {
+  width: 400px;
+  height: 400px;
+  max-width: 30%;
+  max-height: 30vw;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .title {
   text-align: center;
@@ -14,6 +19,20 @@
   width: 100%;
 }
 
+.text-block {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0.8;
+  padding: 10px;
+}
+
 body {
   width: 100%;
   height: 100vh;
@@ -21,4 +40,16 @@ body {
   padding-top: 80px;
   margin: 0;
   font-family: helvetica, sans-serif;
+}
+
+#first-frame {
+  background-image: url('./images/photo1.jpg');
+}
+
+#second-frame {
+  background-image: url('./images/photo2.jpg');
+}
+
+#third-frame {
+  background-image: url('./images/photo3.jpg');
 }
